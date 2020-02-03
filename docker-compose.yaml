@@ -26,25 +26,6 @@ services:
     networks:
       - pingnet-dmz
 
-  pingdatagovernance:
-    image: pingidentity/pingdatagovernance:${PING_IDENTITY_DEVOPS_TAG}
-    command: wait-for pingdirectory:389 -t 300 -- entrypoint.sh start-server
-    environment:
-      - SERVER_PROFILE_URL=https://github.com/Morganls23/FBI.git
-      - SERVER_PROFILE_PATH=baseline/pingdatagovernance
-      - PING_IDENTITY_ACCEPT_EULA=YES
-    env_file:
-      - ~/.pingidentity/devops
-    #volumes:
-    #  - ${HOME}/projects/devops/volumes/full-stack.pingdatagovernance:/opt/out
-    #  - ${HOME}/projects/devops/pingidentity-server-profiles/baseline/pingdatagovernance:/opt/in
-    ports:
-      - 8080:80
-      - 7443:443
-    networks:
-      - pingnet-dmz
-      - pingnet-internal
-
   pingfederate:
     image: pingidentity/pingfederate:${PING_IDENTITY_DEVOPS_TAG}
     command: wait-for pingdirectory:389 -t 300 -- entrypoint.sh start-server
@@ -67,7 +48,7 @@ services:
   pingdirectory:
     image: pingidentity/pingdirectory:${PING_IDENTITY_DEVOPS_TAG}
     environment:
-      - SERVER_PROFILE_URL=https://github.com/Morganls23/FBI.git
+      - SERVER_PROFILE_URL=https://github.com/Morganls23/FarmB.git
       - SERVER_PROFILE_PATH=baseline/pingdirectory
       - PING_IDENTITY_ACCEPT_EULA=YES
     env_file:
