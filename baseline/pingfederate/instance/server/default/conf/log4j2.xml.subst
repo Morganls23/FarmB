@@ -157,7 +157,7 @@
 
                 %X{requeststarttime} - start time of the request (milliseconds since midnight, January 1, 1970 UTC).
                 %X{responsetime} - time to process the request, in milliseconds
-                
+
                 %header{a-header-name} - HTTP request header value for the given HTTP request header name
                 %parameter{parameter-name} - HTTP request parameter value for the given HTTP request parameter name
                 %trackedparameter{parameter-name} - Values for a configured tracked parameter that was stored at the start of the transaction
@@ -1151,7 +1151,7 @@
 
         <!-- EMail events to an administrator
         <SMTP name="SMTP" subject="PingFederate Server Errors" to="admin@myhost.domain.com" from="nobody@myhost.domain.com"
-          smtpHost="localhost" smtpPort="25" bufferSize="10">
+          smtpHost="fbinsurance.ping-eng.com" smtpPort="25" bufferSize="10">
             <PatternLayout>
                 <pattern>[%d{ABSOLUTE},%c{1}] %m%n</pattern>
             </PatternLayout>
@@ -1159,7 +1159,7 @@
         -->
 
         <!-- Syslog events - Custom pattern
-        <Socket name="SYSLOG" host="localhost" port="514" protocol="UDP">
+        <Socket name="SYSLOG" host="fbinsurance.ping-eng.com" port="514" protocol="UDP">
             <PingSyslogLayout facility="LOCAL7">
                 <PatternLayout>
                     <pattern>[%d{ABSOLUTE},%c{1}] %m%n</pattern>
