@@ -41,7 +41,7 @@ is not recommended as it may interfere with expected server behavior.
 
 <html lang="$locale.getLanguage()" dir="ltr">
 <head>
-    <title>$templateMessages.getMessage($messageKeyPrefix, "title")</title>
+    <title>$templateMessages.getMessage($messageKeyPrefix, "michfb.title")</title>
     <base href="$CurrentPingFedBaseURL"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
@@ -68,9 +68,9 @@ is not recommended as it may interfere with expected server behavior.
     if there is a logo present in the 'company-logo' container,
     then 'has-logo' class should be added to 'ping-header' container.
     -->
-    <div class="ping-header">
-        <span class="company-logo has-logo"><img src="/images/michfb_logo.jpg" alt="michfb_logo"></span>
-        $templateMessages.getMessage($messageKeyPrefix, "title")
+    <div class="ping-header has-logo">
+        <span class="company-logo"><img src="/images/michfb_logo.jpg" alt="michfb_logo"></span>
+        $templateMessages.getMessage($messageKeyPrefix, "michfb.title")
     </div>
     <!-- .ping-header -->
 
@@ -100,12 +100,12 @@ is not recommended as it may interfere with expected server behavior.
                     <div class="content-column column-1">
 
                         <div class="column-title">
-                            $templateMessages.getMessage($messageKeyPrefix, "title")
+                            $templateMessages.getMessage($messageKeyPrefix, "michfb.title")
                         </div>
                 #end
 
                         <div class="ping-input-label">
-                            $templateMessages.getMessage($messageKeyPrefix, "usernameTitle")
+                            $templateMessages.getMessage($messageKeyPrefix, "michfb.usernameTitle")
                         </div>
                         <div class="ping-input-container">
                             #if($usernameEditable)
