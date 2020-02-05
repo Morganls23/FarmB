@@ -93,6 +93,7 @@ cn: pingFederateAdministrator
 givenName: PingAccess
 uid: access2federate
 userPassword: 2FederateM0re
+ds-privilege-name: proxied-auth
 pf-connected-identity: auth-source=pf-local-identity:user-id=access2federate
 
 
