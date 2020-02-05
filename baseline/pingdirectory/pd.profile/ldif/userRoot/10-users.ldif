@@ -4,7 +4,6 @@ objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 objectClass: pf-connected-identities
-objectClass:demoUserExtension
 sn: Brooke
 cn: Raeann Brooke
 givenName: Raeann
@@ -19,7 +18,6 @@ objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 objectClass: pf-connected-identities
-objectClass:demoUserExtension
 sn: Seawell
 cn: Esko Seawell
 givenName: Esko
@@ -34,7 +32,6 @@ objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 objectClass: pf-connected-identities
-objectClass:demoUserExtension
 sn: Tancordo
 cn: Sidonia Tancordo
 givenName: Sidonia
@@ -49,7 +46,6 @@ objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 objectClass: pf-connected-identities
-objectClass:demoUserExtension
 sn: Knio
 cn: Pierre-Marc Knio
 givenName: Pierre-Marc
@@ -64,7 +60,6 @@ objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 objectClass: pf-connected-identities
-objectClass:demoUserExtension
 sn: Psutka
 cn: Terza Psutka
 givenName: Terza
