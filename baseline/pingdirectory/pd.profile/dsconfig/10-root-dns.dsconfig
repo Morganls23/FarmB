@@ -22,7 +22,7 @@ dsconfig create-root-dn-user \
     --set password<${ROOT_USER_PASSWORD_FILE}
 
 #
-# Create a user for pingfederate 
+# Create a user for pingfederate
 #
 dsconfig create-root-dn-user \
   --user-name pingfederate \
@@ -35,10 +35,12 @@ dsconfig create-root-dn-user \
   --set privilege:unindexed-search \
   --set privilege:config-read \
   --set is-proxyable:prohibited \
+  --set privilege:proxied-auth\
   --set password<${ROOT_USER_PASSWORD_FILE}
 
+
 #
-# Create a user for pingdirectoryproxy 
+# Create a user for pingdirectoryproxy
 #
 dsconfig create-root-dn-user \
     --user-name pingdirectoryproxy  \
@@ -60,4 +62,3 @@ dsconfig create-root-dn-user \
     --set privilege:proxied-auth \
     --set privilege:unindexed-search \
     --set search-result-entry-limit:100000
-
