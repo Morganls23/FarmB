@@ -16,12 +16,6 @@
 		<description></description>
 		<servlet-class>com.pingidentity.pa.starter.servlets.HomeServlet</servlet-class>
 	</servlet>
-  <servlet>
-    <servlet-name>SpecialServlet</servlet-name>
-    <display-name>SpecialServlet</display-name>
-    <description></description>
-    <servlet-class>com.pingidentity.pa.starter.servlets.SpecialServlet</servlet-class>
-  </servlet>
 	<servlet>
 		<servlet-name>ApiDemoServlet</servlet-name>
 		<display-name>ApiDemoServlet</display-name>
@@ -54,14 +48,6 @@
 		<servlet-name>HomeServlet</servlet-name>
 		<url-pattern>/home/</url-pattern>
 	</servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>SpecialServlet</servlet-name>
-    <url-pattern>/special</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>SpecialServlet</servlet-name>
-    <url-pattern>/special/</url-pattern>
-  </servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>ApiDemoServlet</servlet-name>
 		<url-pattern>/api-demo</url-pattern>
