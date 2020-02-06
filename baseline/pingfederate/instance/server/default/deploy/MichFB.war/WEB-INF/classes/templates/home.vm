@@ -5,7 +5,7 @@
 
 	<meta charset="utf-8" />
 	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<title>PingAccess - Quickstart</title>
+	<title>Michigan Farm Bureau - Sample App</title>
 	<link rel="shortcut icon" type="image/x-icon" href="$contextPath/assets/images/farmFav.ico">
 	<link rel="stylesheet" media="all" type="text/css" href="$contextPath/assets/css/ping-main.css" />
 	<script type="text/javascript" src="$contextPath/assets/scripts/jquery-1.11.1.min.js"></script>
@@ -20,8 +20,8 @@
 		<div id="ping-header">
 
 			<div id="ping-logo-container">
-				<img class="ping-logo" src="$contextPath/assets/images/FarmB.jpeg" width="45" height="45" />
-				<img class="ping-access-logo" src="$contextPath/assets/images/logo-ping-access.png" width="94" height="22" />
+				<img class="ping-logo" src="$contextPath/assets/images/MichFB.jpeg" width="45" height="45" />
+				<img class="ping-access-logo" src="$contextPath/assets/images/farmFav.png" width="94" height="22" />
 			</div>
 
 			<ul id="ping-nav">
@@ -39,18 +39,17 @@
 		<h2>Welcome to Farm Bureau of Michigan!</h2>
 
 		<div id="ping-intro-text" class="ping-access-home">
-		Use this interactive Quick-Start application to explore how the PingAccess solution can work for your organization.
+		This simple sample application is used to help you explore how the PingAccess solution can work for your organization.
 		</div>
 
 		<div class="ping-card-container">
 
-			<div class="ping-card ping-center">
+			<div class="ping-card ping-left">
 				<img class="card-icon" src="$contextPath/assets/images/icon-web-access-management.png" width="250" height="246" />
-				<div class="ping-title">See Your Account</div>
-				<div class="ping-body">Centralize the authorization and session management of your protected web applications. Using the OpenID Connect protocol, PingAccess leverages a PingFederate server for authentication and attribute resolution. Session management at the application level is handled via a cookie using an open standard format called JSON Web Token (JWT). </div>
-				<button id="ping-wam" class="ping-access-button">See Your Info</button>
+				<div class="ping-title">Michigan Farm Bureau</div>
+				<div class="ping-body">Centralize the authorization and session management of your protected web applications. Using the OpenID Connect protocol, PingAccess leverages a PingFederate server for authentication and attribute resolution. Session management at the application level is handled via a cookie using an open standard format called JSON Web Token (JWT). Run a test request to get a demonstration of basic web resource protection.</div>
+				<button id="ping-wam" class="ping-access-button">View Your Infromation</button>
 			</div>
-
 
 		</div>
 
