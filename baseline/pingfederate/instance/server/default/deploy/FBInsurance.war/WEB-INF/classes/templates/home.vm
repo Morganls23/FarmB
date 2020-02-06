@@ -46,17 +46,11 @@
 
 			<div class="ping-card ping-left">
 				<img class="card-icon" src="$contextPath/assets/images/icon-web-access-management.png" width="250" height="246" />
-				<div class="ping-title">Web Access Management</div>
+				<div class="ping-title">Farm Bureau of Michigan</div>
 				<div class="ping-body">Centralize the authorization and session management of your protected web applications. Using the OpenID Connect protocol, PingAccess leverages a PingFederate server for authentication and attribute resolution. Session management at the application level is handled via a cookie using an open standard format called JSON Web Token (JWT). Run a test request to get a demonstration of basic web resource protection.</div>
-				<button id="ping-wam" class="ping-access-button">Try It Now</button>
+				<button id="ping-wam" class="ping-access-button">Check Out Your Account</button>
 			</div>
 
-			<div class="ping-card ping-right">
-				<img class="card-icon" src="$contextPath/assets/images/icon-api-access-management.png" width="250" height="248" />
-				<div class="ping-title">API Access Management</div>
-				<div class="ping-body">Paired with PingFederate, PingAccess provides a secure method of controlling access to APIs while integrating them with existing identity management infrastructure. PingFederate acts as an OAuth Authorization Server to manage application clients and API token lifecycles, while PingAccess acts as the OAuth Resource Server to validate tokens and apply policies. To get a demonstration of a complete OAuth client interaction, try it now.</div>
-				<button id="ping-aam" class="ping-access-button">Try It Now</button>
-			</div>
 
 		</div>
 
