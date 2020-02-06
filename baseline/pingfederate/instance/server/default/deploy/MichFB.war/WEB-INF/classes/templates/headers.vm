@@ -27,7 +27,7 @@
 			<ul id="ping-nav">
 				<li><a href="$contextPath/"><img class="ping-home-icon" src="$contextPath/assets/images/icon-home.png" width="17" height="20" /></a></li>
 				#if ($username && $username != "")
-					<li><a href="$pfHost/idp/startSLO.ping?TargetResource=$paHost$contextPath/" class="ping-sign-off">Sign Off ($username)</a></li>
+					<li><a href="$pfHost/idp/startSLO.ping?TargetResource=$paHost$contextPath/" class="ping-sign-off">Sign Off ($subject)</a></li>
   	  	        #end
 			</ul>
 
@@ -37,8 +37,8 @@
 	<div id="ping-content">
 
 		<h2>Michigan Farm Bureau </h2>
-
-		<h3>Welcome ($username)!</h3>
+		#if ($subject && $subject != "")
+		<h3>Welcome ($subject)!</h3>
 
 		<h4>See Your User Information Below </h4>
 
