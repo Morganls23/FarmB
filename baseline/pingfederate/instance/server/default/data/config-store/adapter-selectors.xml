@@ -3,5 +3,6 @@
     <con:map name="adapter-selectors">
         <con:item name="App">com.pingidentity.pf.selectors.http.HttpRequestParamAuthnSelector</con:item>
         <con:item name="AppRequested">com.pingidentity.pf.selectors.http.HttpRequestParamAuthnSelector</con:item>
+        <con:item name="sdkapp">com.pingidentity.pf.selectors.oauthclient.OAuthClientAdapterSelector</con:item>
     </con:map>
 </con:config>

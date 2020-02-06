@@ -38,7 +38,7 @@
 
 		<h2>Michigan Farm Bureau </h2>
 		#if ($subject && $subject != "")
-		<h3>Welcome ($subject)!</h3>
+		<h3>Welcome to the Special Page!</h3>
 
 		<h4>See Your User Information Below </h4>
 
