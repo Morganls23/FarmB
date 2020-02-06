@@ -11,8 +11,8 @@
         <urn:Field name="Enable 'This is My Device'">false</urn:Field>
         <urn:Field name="Change Password Email Notification">false</urn:Field>
         <urn:Field name="Show Password Expiring Warning">false</urn:Field>
-        <urn:Field name="Password Reset Type">PingID</urn:Field>
-        <urn:Field name="Password Reset Policy Contract"/>
+        <urn:Field name="Password Reset Type">POLICY</urn:Field>
+        <urn:Field name="Password Reset Policy Contract">SynPdCr66wBma1ah</urn:Field>
         <urn:Field name="Account Unlock">false</urn:Field>
         <urn:Field name="Local Identity Profile">RBSQIwi5KWYN9ZGK</urn:Field>
         <urn:Field name="Notification Publisher"/>
