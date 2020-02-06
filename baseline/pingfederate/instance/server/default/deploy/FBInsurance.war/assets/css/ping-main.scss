@@ -7,7 +7,7 @@ $font-stack: "Helvetica Neue", helvetica, arial, sans-serif;
 $font-stack-lt-std: "Helvetica Neue LT Std", helvetica, arial, sans-serif; /* 55 Roman */
 $font-helvetica: helvetica, arial, sans-serif;
 $primary-header-background: #ececec;
-$primary-body-background: #f7f7f7;
+$primary-body-background: #E82200;
 $primary-column-background: #fff;
 $primary-header-color: #005669;
 $primary-font-color: #444;
@@ -26,8 +26,8 @@ body{
 	font-family: $font-stack-lt-std;
 	background: $primary-body-background;
 }
-textarea, input { 
-	outline: none; 
+textarea, input {
+	outline: none;
 }
 input[type=text] {
 	border: 1px solid #D1D3D4;
@@ -97,7 +97,7 @@ a {
 					display: inline-block;
 					font-size: 13px;
 					font-weight: normal;
-					text-decoration: none;	
+					text-decoration: none;
 					color: $primary-font-color;
 					padding: 2px;
 					margin-top: 4px;
@@ -147,7 +147,7 @@ a {
 			font-size: 13px;
 			color: $primary-font-color;
 			margin: 15px 0;
-			width: 100%;		
+			width: 100%;
 		}
 		#ping-intro-text {
 			font-family: $font-stack;
@@ -224,7 +224,7 @@ a {
     		width: 1024px;
     		max-width: 1024px;
     		/* not supported in ie9
-    		media query for smaller resolutions 
+    		media query for smaller resolutions
 			-webkit-flex-direction: column;
     		-ms-flex-direction: column;
     		flex-direction: column; */
@@ -378,7 +378,7 @@ a {
 				max-width: 700px;
 			}
 		}
-		
+
 	}
 
 	#ping-footer {
@@ -424,7 +424,7 @@ a {
 					max-width: 400px;
 
 					&.ping-left,
-					&.ping-right { 
+					&.ping-right {
 						float: none;
 						text-align: center;
 						margin-left: auto;

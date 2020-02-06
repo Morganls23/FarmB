@@ -45,7 +45,7 @@
 		<div class="ping-card-container">
 
 			<div class="ping-card ping-left">
-				<img class="card-icon" src="$contextPath/assets/images/icon-web-access-management.png" width="250" height="246" />
+				<img class="card-icon" src="$contextPath/assets/images/FarmBureauMI.jpg" width="250" height="246" />
 				<div class="ping-title">Web Access Management</div>
 				<div class="ping-body">Centralize the authorization and session management of your protected web applications. Using the OpenID Connect protocol, PingAccess leverages a PingFederate server for authentication and attribute resolution. Session management at the application level is handled via a cookie using an open standard format called JSON Web Token (JWT). Run a test request to get a demonstration of basic web resource protection.</div>
 				<button id="ping-wam" class="ping-access-button">Try It Now</button>
