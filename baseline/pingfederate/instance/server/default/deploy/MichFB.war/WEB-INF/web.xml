@@ -46,14 +46,6 @@
 		<servlet-name>HeadersServlet</servlet-name>
 		<url-pattern>/headers/</url-pattern>
 	</servlet-mapping>
-  <servlet-mapping>
-		<servlet-name>SpecialServlet</servlet-name>
-		<url-pattern>/special</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>SpecialServlet</servlet-name>
-		<url-pattern>/special/</url-pattern>
-	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>HomeServlet</servlet-name>
 		<url-pattern>/home</url-pattern>
@@ -62,6 +54,14 @@
 		<servlet-name>HomeServlet</servlet-name>
 		<url-pattern>/home/</url-pattern>
 	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SpecialServlet</servlet-name>
+    <url-pattern>/special</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SpecialServlet</servlet-name>
+    <url-pattern>/special/</url-pattern>
+  </servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>ApiDemoServlet</servlet-name>
 		<url-pattern>/api-demo</url-pattern>
