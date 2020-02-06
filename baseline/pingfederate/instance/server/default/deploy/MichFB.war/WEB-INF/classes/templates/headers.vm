@@ -26,7 +26,7 @@
 
 			<ul id="ping-nav">
 				<li><a href="$contextPath/"><img class="ping-home-icon" src="$contextPath/assets/images/icon-home.png" width="17" height="20" /></a></li>
-				<li><a href="/special"><img class="ping-home-icon" src="$contextPath/assets/images/star.png" width="17" height="20" /></a></li>
+				<li><a href="$contextPath/special"><img class="ping-home-icon" src="$contextPath/assets/images/star.png" width="17" height="20" /></a></li>
 				#if ($username && $username != "")
 					<li><a href="$pfHost/idp/startSLO.ping?TargetResource=$paHost$contextPath/" class="ping-sign-off">Sign Off ($username)</a></li>
   	  	        #end
