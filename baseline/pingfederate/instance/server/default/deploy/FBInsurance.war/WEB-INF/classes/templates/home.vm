@@ -6,7 +6,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title>PingAccess - Quickstart</title>
-	<link rel="shortcut icon" type="image/x-icon" href="$contextPath/assets/images/farmFav.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="$contextPath/assets/images/farmFav.png">
 	<link rel="stylesheet" media="all" type="text/css" href="$contextPath/assets/css/ping-main.css" />
 	<script type="text/javascript" src="$contextPath/assets/scripts/jquery-1.11.1.min.js"></script>
 
