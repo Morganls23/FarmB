@@ -40,10 +40,8 @@
 		<h2>Michigan Farm Bureau </h2>
 
 		<h3>Welcome! </h3>
-		#if ($Referer && $Referer == "https://michfb.ping-eng.com:3000/MichFB/headers")
-		<h6>You are Special!!</h6>
-		#elseif ($Referer && $Referer == "https://michfb.ping-eng.com:9031/")
-		<h6>You are Special!!</h6>
+		#if ($Referer && $Referer != "https://michfb.ping-eng.com:3000/MichFB/home/")
+		<h1>You are Special!!</h1>
 		#end
 		<h4>See Your User Information Below </h4>
 		<div class="ping-data">
