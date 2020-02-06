@@ -5,6 +5,7 @@
         <con:item name="MichForm">com.pingidentity.adapters.htmlform.idp.HtmlFormIdpAuthnAdapter</con:item>
         <con:item name="FBInsurance">com.pingidentity.adapters.htmlform.idp.HtmlFormIdpAuthnAdapter</con:item>
         <con:item name="PingID">com.pingidentity.adapters.pingid.PingIDAdapter</con:item>
+        <con:item name="PingIDSDK">com.pingidentity.adapters.pingid.PingIDSDKAdapter</con:item>
     </con:map>
     <con:map name="IdpAdapterInstanceParents">
         <con:item name="MichForm">HTMLFormPD</con:item>

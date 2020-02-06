@@ -57,6 +57,7 @@
          password to that particular key-->
     <map name="SslServerPrivateKeyPasswords">
         <item name="t9vezrmnn5ntdoq6bzfzbtg0j">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiRW1JY1UxOVdueSIsInZlcnNpb24iOiI5LjIuMi4wIn0..PmClS5RqF0WD30fyGahbsw.5Sq6ky_fgrz2tcYXQVH0_8lLYGlXKYNQb4Qre07dr2Y.mqQ9H-1qbys8hnHAtzyzVw</item>
+        <item name="1y1zr8du9dxjm9y6jn6f3vy5v">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiRW1JY1UxOVdueSIsInZlcnNpb24iOiIxMC4wLjAuMTUifQ..pGkfWYMGqVZvIsMlh_mG3w.shKgTyxwSm2Bc_2G7BMG7wlUFuTC7OLDzqgrdEYWsJU._e0vlre4x_JhNRnmMRL78A</item>
     </map>
     <!--SSL HSM Server Keystore information: name and password-->
     <item name="SslServerHSMKeystoreName">ping-ssl-server.hsmks</item>

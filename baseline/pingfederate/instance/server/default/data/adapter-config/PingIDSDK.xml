@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:AdapterConfiguration authnCtxClassRef="" isInheritAttributeSettings="false" isInheritAttributeMapping="false" maskOgnlValues="false" isInheritExtendedContractAttributes="false" name="PingIDSDK" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+    <urn:Fields>
+        <urn:Field name="PingID SDK Properties">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiRW1JY1UxOVdueSIsInZlcnNpb24iOiIxMC4wLjAuMTUiLCJ6aXAiOiJERUYifQ..IsANc6_cMMUhIEW0YO9IbA.GW4VmJMOFHFdYHRQu18ljN662SphnQU4hpu_hTq_H6Y9QnpEnqANoJ-jy2rLLv_GYwue3BHg_ECr2JzN3ZZy07vMvbxnXfkeyQPB1S01mvqHluKXbhgPUVXvn77aVo8IcGF9sFjPRN6YsO4eC33A4iELVpI_UIvqOAKXIrTTySG2wK4Eow4UDRn8gx-zNLXEpQem2ZFyWyNYzYT4Ms2A5eo2C6t5vWAMenMXMeU33Cf7L8IXkUtB7QxbZsJGkA9JjgVoqOfXg6wKgXDSeaGBeWq7P0uetH1RvN_gj_fXLfvI5rNWlN_ys92cJq-NGxQ5oMMl6erIf2rpPRNxW9bcXfC3-ZRf_rEhsKL4Loe0lBQ.dmJUY3meJh35l3w1oMYHyQ</urn:Field>
+        <urn:Field name="Application ID">74b5cc6f-576e-4b47-8bb7-4f7e8806f503</urn:Field>
+        <urn:Field name="Device Pairing">automatic</urn:Field>
+        <urn:Field name="Unpaired Users - Manual Pairing">bypass</urn:Field>
+        <urn:Field name="Unpaired Users - Web Login">bypass</urn:Field>
+        <urn:Field name="Additional Trusted Devices">network</urn:Field>
+        <urn:Field name="MFA timeout"/>
+        <urn:Field name="User Verification">bypass</urn:Field>
+        <urn:Field name="Authentication During Errors">bypass</urn:Field>
+        <urn:Field name="Heartbeat Timeout"/>
+        <urn:Field name="HTML Template">pingid.sdk.login.template.html</urn:Field>
+        <urn:Field name="Messages File">pingid-sdk-messages_en</urn:Field>
+        <urn:Field name="Change Device">display</urn:Field>
+        <urn:Field name="Success Screens">display</urn:Field>
+        <urn:Field name="Error Screens">display</urn:Field>
+        <urn:Field name="Timeout Screens">display</urn:Field>
+        <urn:Field name="QR code based authentication">disabled</urn:Field>
+        <urn:Field name="ROOTED/JAILBROKEN DEVICE">bypass</urn:Field>
+    </urn:Fields>
+    <urn:AdvancedFields>
+        <urn:Field name="HTML Template">pingid.sdk.login.template.html</urn:Field>
+        <urn:Field name="Messages File">pingid-sdk-messages_en</urn:Field>
+        <urn:Field name="Change Device">display</urn:Field>
+        <urn:Field name="Success Screens">display</urn:Field>
+        <urn:Field name="Error Screens">display</urn:Field>
+        <urn:Field name="Timeout Screens">display</urn:Field>
+        <urn:Field name="QR code based authentication">disabled</urn:Field>
+        <urn:Field name="ROOTED/JAILBROKEN DEVICE">bypass</urn:Field>
+    </urn:AdvancedFields>
+    <urn:Tables/>
+    <urn:ExtendedContractAttributes/>
+    <urn:UniqueKeyField>username</urn:UniqueKeyField>
+    <urn:AttributeMapping>
+        <urn1:AttributeMap Name="pingid.sdk.status" Type="Adapter" Value="pingid.sdk.status" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        <urn1:AttributeMap Name="policy.action" Type="Adapter" Value="policy.action" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        <urn1:AttributeMap Name="authenticating.device.rooted" Type="Adapter" Value="authenticating.device.rooted" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        <urn1:AttributeMap Name="pingid.sdk.status.reason" Type="Adapter" Value="pingid.sdk.status.reason" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        <urn1:AttributeMap Name="accessing.device.rooted" Type="Adapter" Value="accessing.device.rooted" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        <urn1:AttributeMap Name="username" Type="Adapter" Value="username" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+    </urn:AttributeMapping>
+</urn:AdapterConfiguration>
