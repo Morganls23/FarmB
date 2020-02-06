@@ -20,8 +20,8 @@
 		<div id="ping-header">
 
 			<div id="ping-logo-container">
-				<img class="ping-logo" src="$contextPath/assets/images/MichFB.jpeg" width="45" height="45" />
-				<img class="ping-access-logo" src="$contextPath/assets/images/farmFav.png" width="94" height="22" />
+				<img class="ping-logo" src="$contextPath/assets/images/FarmB.jpeg" width="45" height="45" />
+				<img class="ping-access-logo" src="$contextPath/assets/images/logo-ping-access.png" width="94" height="22" />
 			</div>
 
 			<ul id="ping-nav">
