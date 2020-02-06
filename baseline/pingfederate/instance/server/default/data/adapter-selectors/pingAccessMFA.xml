@@ -8,8 +8,6 @@
     <urn:AdvancedFields/>
     <urn:Tables/>
     <urn:ExtendedContractAttributes>
-        <urn:AttributeName>MichForm</urn:AttributeName>
-        <urn:AttributeName>FBInsurance</urn:AttributeName>
         <urn:AttributeName>PingIDSDK</urn:AttributeName>
     </urn:ExtendedContractAttributes>
 </urn:PluginConfiguration>
